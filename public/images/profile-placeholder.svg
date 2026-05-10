@@ -1,0 +1,17 @@
+<svg width="960" height="1200" viewBox="0 0 960 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="1200" rx="48" fill="#08111F"/>
+  <rect x="48" y="48" width="864" height="1104" rx="36" fill="url(#paint0_linear)"/>
+  <circle cx="480" cy="392" r="156" fill="#0E2037" stroke="#4BD6FF" stroke-width="6"/>
+  <circle cx="480" cy="348" r="72" fill="#4BD6FF" fill-opacity="0.18"/>
+  <path d="M286 858C314 721.912 380.257 654 480 654C579.743 654 646 721.912 674 858" fill="#0E2037"/>
+  <path d="M286 858C314 721.912 380.257 654 480 654C579.743 654 646 721.912 674 858" stroke="#4BD6FF" stroke-width="6"/>
+  <text x="480" y="398" text-anchor="middle" fill="#DDF8FF" font-family="Arial, sans-serif" font-size="88" font-weight="700">RN</text>
+  <text x="480" y="980" text-anchor="middle" fill="#DDF8FF" font-family="Arial, sans-serif" font-size="34" font-weight="700">EMPLACEMENT PHOTO</text>
+  <text x="480" y="1032" text-anchor="middle" fill="#8AA3BF" font-family="Arial, sans-serif" font-size="24">Remplace ce fichier par un portrait en JPG ou PNG</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="128" y1="96" x2="853" y2="1148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1830"/>
+      <stop offset="1" stop-color="#07101B"/>
+    </linearGradient>
+  </defs>
+</svg>
