@@ -7,16 +7,17 @@ import { contact, hero } from '@/data/content';
 export function HeroSection() {
   return (
     <section className="relative border-b border-white/10 bg-hero-grid" id="top">
-      <div className="absolute inset-0 opacity-40">
-        <div className="absolute left-8 top-24 h-36 w-36 rounded-full bg-cyan/20 blur-3xl animate-drift" />
-        <div className="absolute bottom-24 right-12 h-44 w-44 rounded-full bg-blue/20 blur-3xl animate-drift" />
+      <div className="absolute inset-0 opacity-30" style={{ pointerEvents: 'none' }}>
+        <div className="absolute left-8 top-24 h-36 w-36 rounded-full bg-cyan/10 blur-xl" style={{ willChange: 'auto' }} />
+        <div className="absolute bottom-24 right-12 h-44 w-44 rounded-full bg-blue/10 blur-xl" style={{ willChange: 'auto' }} />
       </div>
 
       <div className="absolute inset-y-0 right-0 hidden w-[38%] overflow-hidden lg:block">
         <img
           alt="Fond artistique flouté"
-          className="h-full w-full object-cover object-center opacity-20 blur-2xl animate-slow-zoom"
+          className="h-full w-full object-cover object-center opacity-10 blur-lg"
           src="/images/photo-utile.jpeg"
+          style={{ willChange: 'auto' }}
         />
       </div>
 

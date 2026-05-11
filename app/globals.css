@@ -70,9 +70,11 @@ a {
   width: 42rem;
   height: 42rem;
   background: radial-gradient(circle, rgba(99, 216, 255, 0.18), transparent 62%);
-  filter: blur(50px);
-  opacity: 0.8;
-  animation: drift 12s ease-in-out infinite;
+  filter: blur(30px);
+  opacity: 0.5;
+  animation: drift 16s ease-in-out infinite;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .site-ambient::after {
@@ -83,9 +85,11 @@ a {
   width: 34rem;
   height: 34rem;
   background: radial-gradient(circle, rgba(92, 141, 255, 0.18), transparent 62%);
-  filter: blur(60px);
-  opacity: 0.75;
-  animation: drift 14s ease-in-out infinite reverse;
+  filter: blur(30px);
+  opacity: 0.4;
+  animation: drift 20s ease-in-out infinite reverse;
+  will-change: transform;
+  transform: translate3d(0, 0, 0);
 }
 
 .blur-photo-bg {
@@ -95,7 +99,8 @@ a {
     url('/images/photo-utile.jpeg');
   background-size: cover;
   background-position: center 18%;
-  filter: blur(28px) saturate(1.04);
-  opacity: 0.18;
-  transform: scale(1.12);
+  filter: blur(15px) saturate(0.95);
+  opacity: 0.12;
+  transform: scale(1.08);
+  will-change: opacity;
 }
