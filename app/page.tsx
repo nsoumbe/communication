@@ -12,6 +12,8 @@ import { SkillsSection } from '@/components/sections/SkillsSection';
 export default function Home() {
   return (
     <main className="relative overflow-hidden">
+      <div className="site-ambient" />
+      <div className="blur-photo-bg" />
       <Navbar />
       <HeroSection />
       <AboutSection />

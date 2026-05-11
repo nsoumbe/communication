@@ -8,14 +8,14 @@ export function AboutSection() {
       <SectionHeader
         eyebrow="Qui je suis"
         title="Un profil analytique, technique et orienté terrain"
-        copy="Une présentation plus propre, avec un texte relu et une photo moins recadrée pour mieux restituer ton image."
+        copy="Une présentation plus propre, avec un texte relu et une photo mieux cadrée pour mieux restituer ton image."
       />
 
       <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr]">
         <Reveal className="glass-card overflow-hidden p-4">
           <img
             alt="Photo de profil de Russell NSOUMBE"
-            className="h-full min-h-[420px] w-full rounded-[1.5rem] object-cover object-center"
+            className="h-full min-h-[420px] w-full rounded-[1.5rem] object-cover object-[center_22%]"
             src="/images/profile-photo.jpeg"
           />
           <p className="px-2 pb-2 pt-4 text-sm text-slate-400">{about.photoNote}</p>

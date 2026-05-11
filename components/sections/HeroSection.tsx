@@ -7,9 +7,17 @@ import { contact, hero } from '@/data/content';
 export function HeroSection() {
   return (
     <section className="relative border-b border-white/10 bg-hero-grid" id="top">
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute left-8 top-24 h-32 w-32 rounded-full bg-cyan/20 blur-3xl" />
-        <div className="absolute bottom-24 right-12 h-40 w-40 rounded-full bg-blue/20 blur-3xl" />
+      <div className="absolute inset-0 opacity-40">
+        <div className="absolute left-8 top-24 h-36 w-36 rounded-full bg-cyan/20 blur-3xl animate-drift" />
+        <div className="absolute bottom-24 right-12 h-44 w-44 rounded-full bg-blue/20 blur-3xl animate-drift" />
+      </div>
+
+      <div className="absolute inset-y-0 right-0 hidden w-[38%] overflow-hidden lg:block">
+        <img
+          alt="Fond artistique flouté"
+          className="h-full w-full object-cover object-center opacity-20 blur-2xl animate-slow-zoom"
+          src="/images/photo-utile.jpeg"
+        />
       </div>
 
       <div className="section-shell relative flex min-h-[92vh] flex-col justify-center gap-12">
@@ -57,19 +65,35 @@ export function HeroSection() {
             </div>
 
             <div className="flex flex-wrap gap-3 text-sm text-slate-300">
-              <a aria-label="LinkedIn" className="glass-card inline-flex items-center gap-2 px-4 py-2" href={contact.linkedin}>
+              <a
+                aria-label="LinkedIn"
+                className="glass-card inline-flex items-center gap-2 px-4 py-2 transition hover:-translate-y-1"
+                href={contact.linkedin}
+              >
                 <Linkedin size={16} />
                 LinkedIn
               </a>
-              <a aria-label="GitHub" className="glass-card inline-flex items-center gap-2 px-4 py-2" href={contact.github}>
+              <a
+                aria-label="GitHub"
+                className="glass-card inline-flex items-center gap-2 px-4 py-2 transition hover:-translate-y-1"
+                href={contact.github}
+              >
                 <Github size={16} />
                 GitHub
               </a>
-              <a aria-label="Email" className="glass-card inline-flex items-center gap-2 px-4 py-2" href={`mailto:${contact.email}`}>
+              <a
+                aria-label="Email"
+                className="glass-card inline-flex items-center gap-2 px-4 py-2 transition hover:-translate-y-1"
+                href={`mailto:${contact.email}`}
+              >
                 <Mail size={16} />
                 Mail
               </a>
-              <a aria-label="Téléphone" className="glass-card inline-flex items-center gap-2 px-4 py-2" href={`tel:${contact.phone.replaceAll(' ', '')}`}>
+              <a
+                aria-label="Téléphone"
+                className="glass-card inline-flex items-center gap-2 px-4 py-2 transition hover:-translate-y-1"
+                href={`tel:${contact.phone.replaceAll(' ', '')}`}
+              >
                 <Phone size={16} />
                 Tél
               </a>
@@ -82,8 +106,8 @@ export function HeroSection() {
             initial={{ opacity: 0, scale: 0.92 }}
             transition={{ duration: 0.8, delay: 0.15 }}
           >
-            <div className="absolute -right-10 top-8 h-40 w-40 rounded-full bg-cyan/15 blur-3xl" />
-            <div className="absolute bottom-0 left-0 h-24 w-24 rounded-full bg-mint/10 blur-2xl" />
+            <div className="absolute -right-10 top-8 h-40 w-40 rounded-full bg-cyan/15 blur-3xl animate-pulse-glow" />
+            <div className="absolute bottom-0 left-0 h-24 w-24 rounded-full bg-mint/10 blur-2xl animate-float" />
             <div className="relative space-y-8">
               <div className="flex items-center gap-5">
                 <img
@@ -98,7 +122,10 @@ export function HeroSection() {
               </div>
               <div className="grid gap-4 sm:grid-cols-2">
                 {hero.stats.map((stat) => (
-                  <div className="rounded-2xl border border-white/10 bg-slate-950/40 p-4" key={stat.label}>
+                  <div
+                    className="rounded-2xl border border-white/10 bg-slate-950/30 p-4 transition duration-300 hover:-translate-y-1 hover:border-cyan/20 hover:bg-slate-950/45"
+                    key={stat.label}
+                  >
                     <div className="text-3xl font-bold text-white">{stat.value}</div>
                     <div className="mt-2 text-sm text-slate-400">{stat.label}</div>
                   </div>

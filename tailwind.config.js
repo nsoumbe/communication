@@ -4,20 +4,20 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ink: '#07111f',
-        panel: '#0d1a2d',
+        ink: '#0b1730',
+        panel: '#13213d',
         line: 'rgba(148, 163, 184, 0.18)',
-        cyan: '#4bd6ff',
-        blue: '#3b82f6',
+        cyan: '#63d8ff',
+        blue: '#5c8dff',
         mint: '#7ef0c2',
         coral: '#ff7e6b',
       },
       boxShadow: {
-        glow: '0 0 40px rgba(75, 214, 255, 0.15)',
+        glow: '0 0 50px rgba(99, 216, 255, 0.18)',
       },
       backgroundImage: {
         'hero-grid':
-          'radial-gradient(circle at top left, rgba(75,214,255,0.20), transparent 28%), radial-gradient(circle at 80% 20%, rgba(126,240,194,0.12), transparent 22%), linear-gradient(180deg, rgba(7,17,31,0.96), rgba(7,17,31,1))',
+          'radial-gradient(circle at top left, rgba(99,216,255,0.28), transparent 30%), radial-gradient(circle at 78% 18%, rgba(92,141,255,0.20), transparent 24%), radial-gradient(circle at 50% 100%, rgba(126,240,194,0.10), transparent 24%), linear-gradient(180deg, rgba(11,23,48,0.92), rgba(10,21,42,0.98))',
       },
       keyframes: {
         float: {
@@ -28,10 +28,20 @@ module.exports = {
           '0%, 100%': { opacity: '0.4' },
           '50%': { opacity: '0.9' },
         },
+        drift: {
+          '0%, 100%': { transform: 'translate3d(0, 0, 0) scale(1)' },
+          '50%': { transform: 'translate3d(0, -12px, 0) scale(1.03)' },
+        },
+        slowZoom: {
+          '0%, 100%': { transform: 'scale(1.06)' },
+          '50%': { transform: 'scale(1.12)' },
+        },
       },
       animation: {
         float: 'float 6s ease-in-out infinite',
         'pulse-glow': 'pulseGlow 4s ease-in-out infinite',
+        drift: 'drift 10s ease-in-out infinite',
+        'slow-zoom': 'slowZoom 18s ease-in-out infinite',
       },
     },
   },

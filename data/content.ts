@@ -255,6 +255,108 @@ export const projects = [
       "Modélisation d’une base de données complète avec MCD, MPD, requêtes complexes, procédures stockées et gestion de privilèges.",
     highlights: ['Oracle SQL', 'PL/SQL', 'Procédures stockées'],
   },
+  {
+    title: 'Plateforme cloud-native de diffusion de contenu',
+    category: 'Cloud Computing',
+    summary:
+      "Conception et déploiement d’une plateforme cloud-native sur Azure pour diffuser du contenu statique via API REST et interface web, avec automatisation CI/CD, scalabilité, observabilité et maîtrise des coûts.",
+    highlights: [
+      'Azure AKS',
+      'Azure Blob Storage',
+      'Flask',
+      'Docker',
+      'GitHub Actions',
+      'GHCR',
+      'Kubernetes',
+      'Ingress NGINX',
+      'Azure Monitor',
+    ],
+  },
+  {
+    title: 'Détection d’attaques dans un réseau IoT de ville intelligente',
+    category: 'IoT Security',
+    summary:
+      "Projet de conception d’un mécanisme de détection d’attaques pour un réseau IoT hétérogène : modélisation des nœuds et des flux, scénarios d’attaques, définition de métriques de détection et analyse des performances en simulation.",
+    highlights: [
+      'IDS IoT',
+      'Analyse de trafic',
+      'Métriques de détection',
+      'Déni de service',
+      'Usurpation de nœuds',
+      'Falsification de données',
+      'Simulation',
+      'Graphiques d’analyse',
+    ],
+  },
+  {
+    title: 'PSIR — Deepfakes, détection et prévention',
+    category: 'Projet de recherche',
+    summary:
+      "Revue scientifique sur la détection et la prévention des deepfakes, avec un focus sur les limites des approches classiques face aux modèles de diffusion et sur les pistes d’amélioration pour un approfondissement expérimental.",
+    highlights: [
+      'GAN',
+      'Modèles de diffusion',
+      'CNN',
+      'Transformers',
+      'Benchmark',
+      'Analyse bibliographique',
+      'Détection d’images',
+      'Prévention',
+    ],
+  },
+  {
+    title: 'Construction d’un SMSI pour une fintech',
+    category: 'GRC / ISO 27001',
+    summary:
+      "Structuration d’un SMSI autour d’un cas fil rouge de fintech : cadrage du périmètre, cartographie des actifs, analyse de risques, choix de contrôles, gouvernance et pilotage dans une logique ISO 27001.",
+    highlights: [
+      'ISO 27001',
+      'Analyse de risques',
+      'Matrice de risques',
+      'PSSI',
+      'KPI sécurité',
+      'Gouvernance',
+      'RGPD',
+      'AWS + Azure',
+    ],
+  },
+  {
+    title: 'Mini-cloud Zero Trust avec Keycloak',
+    category: 'Cloud Security / Zero Trust',
+    summary:
+      "Construction et sécurisation d’un mini-cloud open source dans VirtualBox avec k3s, puis mise en œuvre d’une architecture Zero Trust complète : IAM centralisé, microsegmentation, proxy d’accès, observabilité et détection réseau.",
+    highlights: [
+      'VirtualBox',
+      'Ubuntu Server',
+      'k3s',
+      'Keycloak',
+      'OAuth2-Proxy',
+      'Calico',
+      'ELK',
+      'Prometheus',
+      'Grafana',
+      'Suricata',
+      'AppArmor',
+      'Firejail',
+      'Fail2ban',
+    ],
+  },
+  {
+    title: 'Recherche Windows — privilèges et MITRE ATT&CK',
+    category: 'Projet de recherche',
+    summary:
+      "Analyse de techniques de privilège sur endpoints Windows à partir de MITRE ATT&CK, avec étude des artefacts, des sources de télémétrie, des IoC / IoB et des approches de détection temps réel et post-mortem.",
+    highlights: [
+      'MITRE ATT&CK',
+      'Windows Event Logs',
+      'Sysmon',
+      'PowerShell Logging',
+      'IoC',
+      'IoB',
+      'Télémétrie endpoint',
+      'Rapport technique',
+    ],
+  },
 ];
 
 export const lepItems = [
