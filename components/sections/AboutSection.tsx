@@ -8,7 +8,6 @@ export function AboutSection() {
       <SectionHeader
         eyebrow="Qui je suis"
         title="Un profil analytique, technique et orienté terrain"
-        copy="Une présentation plus propre, avec un texte relu et une photo mieux cadrée pour mieux restituer ton image."
       />
 
       <div className="grid gap-8 lg:grid-cols-[0.78fr_1.22fr]">
