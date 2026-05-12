@@ -8,6 +8,7 @@ export function ContactSection() {
       <SectionHeader
         eyebrow="Contact"
         title="Disponible pour échanger"
+        copy="Restons connectés ! Vous pouvez me suivre et me contacter sur les plateformes ci-dessous."
       />
 
       <Reveal className="glass-card grid gap-8 overflow-hidden p-0 lg:grid-cols-[0.95fr_1.05fr]">
