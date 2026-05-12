@@ -384,10 +384,10 @@ export const lepItems = [
     body:
       "En ING4, j'ai poursuivi mon engagement chez COP1 Angers tout en donnant aussi quelques heures au BDI de l'ESAIP comme membre actif. Cette deuxième année montre une continuité réelle de mon engagement sur les deux années ESAIP demandées dans le PPP.",
     missions: [
-      'Poursuite des distributions et de la logistique avec COP1 Angers.',
-      'Présence régulière sur les actions solidaires et les besoins de terrain.',
-      'Participation ponctuelle à la dynamique étudiante via le BDI de l'ESAIP.',
-      'Contribution au bon déroulement d’actions internes ou associatives de l’école.',
+      "Poursuite des distributions et de la logistique avec COP1 Angers.",
+      "Présence régulière sur les actions solidaires et les besoins de terrain.",
+      "Participation ponctuelle à la dynamique étudiante via le BDI de l'ESAIP.",
+      "Contribution au bon déroulement d’actions internes ou associatives de l’école.",
     ],
     insight:
       "Cette deuxième année m’a surtout appris la régularité dans l’engagement : être présent dans la durée, continuer à aider même avec les contraintes académiques, et assumer un rôle concret sans chercher à le mettre en avant.",
